@@ -4,7 +4,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const result = await graphql(`
     {
-      allMdx(limit: 1000, filter: { frontmatter: { draft: { ne: true } } }) {
+      allMdx(limit: 1000) {
         edges {
           node {
             id
