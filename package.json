@@ -1,0 +1,14 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Kevin Cunningham (dolearning) blog",
+  "main": "index.js",
+  "repository": "git@github.com:doingandlearning/gatsby-blog.git",
+  "author": "Kevin Cunningham <kevin@kevincunningham.co.uk>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "www"
+  ]
+}

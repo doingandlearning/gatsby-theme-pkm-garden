@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-theme-pkm-garden",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "is-present": "^1.0.0",
+    "lodash": "^4.17.15"
+  },
+  "keywords": [
+    "pkm",
+    "wiki",
+    "not-wiki",
+    "digital garden",
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "blog"
+  ]
+}
